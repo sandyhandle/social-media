@@ -22,7 +22,7 @@ class UserSerializers(serializers.ModelSerializer):
 class PostSerializers(serializers.ModelSerializer):
     class Meta:
         model = Post
-        fields = ["id","title", "description","created_time",'author']
+        fields = ["id","title", "description","created_time",'author',"like"]
       
 
    
