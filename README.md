@@ -8,6 +8,10 @@ https://social-media-app-m6of.onrender.com
 
 What it dose:
 
+
+- /api/login The user can create a user by using 
+    - Input: name, email and password
+
 - POST /api/authenticate should perform user authentication and return a JWT token.
     - INPUT: Email, Password
     - RETURN: JWT token
